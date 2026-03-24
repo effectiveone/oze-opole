@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Playfair+Display:wght@400;600&display=swap');
+
+:root {
+  --emerald: #059669;
+  --emerald-dark: #065f46;
+  --emerald-light: #34d399;
+  --emerald-pale: #ecfdf5;
+  --leaf: #16a34a;
+  --bg: #f9fafb;
+  --bg-white: #ffffff;
+  --text: #111827;
+  --text-muted: #6b7280;
+  --border: #d1fae5;
+  --border-main: #a7f3d0;
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Plus Jakarta Sans', sans-serif; background: var(--bg); color: var(--text); line-height: 1.65; }
+a { color: var(--emerald-dark); text-decoration: none; }
+a:hover { color: var(--emerald); }
+h1, h2, h3 { font-family: 'Playfair Display', serif; font-weight: 600; line-height: 1.2; }
+.container { max-width: 1100px; margin: 0 auto; padding: 0 1.5rem; }
